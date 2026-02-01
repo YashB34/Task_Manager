@@ -1,0 +1,81 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* LEFT SIDE */
+.login-left {
+  flex: 1;
+
+  /* background-image: url("../assets/login-bg.jpg"); */
+
+  background-position: center;
+  background-size: cover;     
+  background-repeat: no-repeat;
+  height: 90vh;
+ 
+}
+
+.login-left img {
+  width: 70%;
+ 
+}
+
+/* RIGHT SIDE */
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+/* CARD */
+.login-card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-card h2 {
+  margin-bottom: 5px;
+}
+
+.sub {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.login-card input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.login-card button {
+  background: #5b63f6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  opacity: 0.9;
+}
+
+.signup {
+  font-size: 13px;
+  text-align: center;
+}
+
+.signup span {
+  color: #5b63f6;
+  cursor: pointer;
+  font-weight: 600;
+}
